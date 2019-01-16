@@ -6,11 +6,11 @@ namespace Zoo_Lab05.Classes
 {
     public abstract class Animal
     {
-        
         public abstract bool IsPredator { get; set; }
         public abstract bool IsWarmBlooded { get;}
         public virtual int WorthCalories { get; set; }
         public abstract int Limbs { get; }
+        public bool IsAnimal { get => true; }
 
         public virtual string Move()
         {
