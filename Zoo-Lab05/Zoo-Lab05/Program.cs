@@ -28,6 +28,7 @@ namespace Zoo_Lab05
             monkey.Fly();
             lizard.Fly();
             human.Fly();
+
         }
     }
 }
