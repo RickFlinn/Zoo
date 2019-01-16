@@ -1,7 +1,7 @@
 # Zoo
 
 
-This is a project designed to illustrate basic knowledge of OOP principles. 
+This is a project designed to illustrate basic knowledge of OOP principles. A "Zoo" of object classes are all derived from a base "Animal" class. 
 
 ## Inheritance
 
