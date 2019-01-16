@@ -1,4 +1,6 @@
 ﻿using System;
+using Zoo_Lab05.Classes;
+using Zoo_Lab05.Interfaces;
 
 namespace Zoo_Lab05
 {
@@ -6,7 +8,7 @@ namespace Zoo_Lab05
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Animal LizarWizard = new 
         }
     }
 }
