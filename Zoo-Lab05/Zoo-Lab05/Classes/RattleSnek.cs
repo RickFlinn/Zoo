@@ -29,6 +29,7 @@ namespace Zoo_Lab05.Classes
             if (IsEgg)
             {
                 Hatch();
+                Console.WriteLine("RattleSnek hatched");
                 return "RattleSnek hatched";
             }
             Console.WriteLine("Slither slither");
