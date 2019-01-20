@@ -29,11 +29,12 @@ namespace Zoo_Lab05.Classes
         }
         
 
-        public override void Devour(Animal prey)
+        public override string Devour(Animal prey)
         {
             Console.WriteLine("I'll try spinning! That's a neat trick");
             WorthCalories += prey.WorthCalories;
             prey.WorthCalories = 0;
+            return "gator gottem";
         }
 
         public string Swim()

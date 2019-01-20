@@ -41,5 +41,12 @@ namespace Zoo_Lab05.Classes
             Console.WriteLine("Weeee, I'm in a helicopter!");
             return "Humans can fly!";
         }
+
+        public override void MonkeyAround()
+        {
+            Console.WriteLine("*Unwittingly makes self star of viral Youtube video*");
+        }
+
+
     }
 }

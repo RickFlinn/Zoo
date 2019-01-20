@@ -17,7 +17,7 @@ namespace Zoo_Lab05.Classes
             return "Animal moved";
         }
 
-        public virtual void Devour(Animal prey)
+        public virtual string Devour(Animal prey)
         {
             if (IsPredator)
             {
@@ -25,8 +25,9 @@ namespace Zoo_Lab05.Classes
                 WorthCalories += prey.WorthCalories;
                 prey.WorthCalories = 0;
             }
+            return "gottem";
         }
 
-        
+        public abstract string GetClass();
     }
 }

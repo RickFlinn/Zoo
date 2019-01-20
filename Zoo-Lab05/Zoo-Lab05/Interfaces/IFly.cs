@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo_Lab05.Interfaces
 {
-    interface IFly
+    public interface IFly
     {
         string Fly();
     }

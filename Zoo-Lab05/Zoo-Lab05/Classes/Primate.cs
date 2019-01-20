@@ -8,10 +8,7 @@ namespace Zoo_Lab05.Classes
     {
         public virtual bool CanCode { get; set; }
 
-        public void MonkeyAround()
-        {
-            Console.WriteLine("\"OOOOOO OOOOO AAAAAAAHHH AAHHHHHHHH\" *jumps around*");
-        }
+        public abstract void MonkeyAround();
 
     }
 }
