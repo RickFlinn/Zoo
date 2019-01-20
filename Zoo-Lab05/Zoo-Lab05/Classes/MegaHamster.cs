@@ -85,7 +85,7 @@ namespace Zoo_Lab05.Classes
             {
                 Console.WriteLine(e.Message);
             }
-            return "Hamsters raised";
+            return "Hamsters raised. Or eaten.";
         }
 
     }

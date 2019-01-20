@@ -31,5 +31,10 @@ namespace Zoo_Lab05.Classes
             Console.WriteLine("Wee, monkey flying");
             return "Monkey flew";
         }
+
+        public override void MonkeyAround()
+        {
+            Console.WriteLine("OOOOOO OOOOO AAHHHHHH AHHHHHHHHHHHHHHHH! *Builds Javascript application*");
+        }
     }
 }

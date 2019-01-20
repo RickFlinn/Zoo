@@ -26,5 +26,11 @@ namespace Zoo_Lab05.Classes
             }
             return "Wow, look how they've grown!";
         }
+
+        public override string GetClass()
+        {
+            Console.WriteLine("This animal is of class Mammalia.");
+            return "Mammalia";
+        }
     }
 }

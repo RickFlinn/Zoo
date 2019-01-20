@@ -17,5 +17,11 @@ namespace Zoo_Lab05.Classes
         {
             IsEgg = false;
         }
+
+        public override string GetClass()
+        {
+            Console.WriteLine("This animal is of class Reptilia.");
+            return "Reptilia";
+        }
     }
 }
